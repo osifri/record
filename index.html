@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voice Recorder with Loop Playback</title>
+<style>
+  button, audio { display: block; margin: 20px; }
+</style>
+</head>
+<body>
+
+<button id="startRecord">Start Recording</button>
+<button id="stopRecord" disabled>Stop Recording</button>
+<button id="playLoop" disabled>Play in Loop</button>
+<audio id="audioPlayback" controls></audio>
+
+<script src="recorder.js"></script>
+</body>
+</html>
